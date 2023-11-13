@@ -2,9 +2,9 @@
 using namespace std;
 
 int total = 0;
-int summ = 0;
+int summ = 0;                                      //부분수열의 각항의 핪
 
-void f(int * arr, int size, int start, int sum)
+void f(int * arr, int size, int start, int sum)    //start는 수열의 시작 부분, sum은 목표하는 값
 {
     if(start == size)
     {
