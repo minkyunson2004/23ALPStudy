@@ -25,6 +25,7 @@ int main(int argc, const char * argv[])
     
     queue<int> que;
     que.push(0);
+    parent[0] = 0;
     while(1)
     {
         if(que.empty())
